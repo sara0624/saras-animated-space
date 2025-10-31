@@ -40,7 +40,7 @@ const Projects = () => {
       description: "Modern social media application with seamless navigation using React Router. Features personal feed, user profiles, follow system, and real-time social interactions with responsive design.",
       tech: ["React", "React Router", "JavaScript ES6+", "CSS3", "Local Storage"],
       github: "https://github.com/sara6310472/Posts-Tasks-Albums",
-      live: "https://pink-petal-network.vercel.app/login",
+      live: "https://pink-petal-network.vercel.app/",
       highlights: ["Social interactions", "Follow system", "Seamless navigation"]
     }
   ];
