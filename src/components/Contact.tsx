@@ -66,7 +66,7 @@ const Contact = () => {
             
             <Button asChild size="lg" className="group">
               <a
-                href="https://linkedin.com/in/sara-Chester"
+                href="https://www.linkedin.com/in/sara-chester-/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
