@@ -24,7 +24,7 @@ const Projects = () => {
       description: "Full-stack application managing 100+ volunteers with dashboard, cutting coordination time by 50%. Features rule-based matching algorithm improving assignment accuracy by 50%.",
       tech: ["React", "C#", ".NET", "MVVM", "Responsive Design"],
       github: "https://github.com/sara6310472/dotNet5785_9427_1873",
-      live: "https://aid-nexus-21.vercel.app/dashboard",
+      live: "https://aid-nexus-21.vercel.app/",
       highlights: ["100+ volunteers managed", "50% time reduction", "Smart matching algorithm"]
     },
     {
