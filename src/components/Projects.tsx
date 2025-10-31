@@ -4,28 +4,44 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "AI Commit Assistant",
-      description: "VS Code extension that increased developer efficiency by 50% with AI-powered commit generation and code analysis. Automated 80% of commit workflows using Azure DevOps.",
-      tech: ["Node.js", "VS Code API", "Google Gemini AI", "Azure DevOps"],
-      github: "https://github.com/sara6310472",
-      live: null,
-      highlights: ["50% efficiency increase", "80% workflow automation", "AI-powered analysis"]
-    },
-    {
-      title: "Gitlink Developer Platform",
-      description: "Platform aggregating GitHub metrics in real-time for 50+ users. Accelerated hiring decisions by 40% through optimized developer insights dashboards.",
+      title: "GitLink Developer Platform",
+      description: "Platform aggregating GitHub metrics in real-time for 50+ users. Accelerated hiring decisions by 40% through optimized developer insights dashboards with seamless navigation and user profiles.",
       tech: ["React", "Node.js", "GitHub API", "Real-time Analytics"],
-      github: "https://github.com/sara6310472",
-      live: "https://gitlink.example.com",
+      github: "https://github.com/mirigerzon/GitLink",
+      live: "https://gitlink-w7ve.onrender.com/",
       highlights: ["50+ active users", "40% faster hiring", "Real-time metrics"]
     },
     {
+      title: "AI Commit Assistant",
+      description: "VS Code extension that increased developer efficiency by 50% with AI-powered commit generation and code analysis. Automated 80% of commit workflows using Azure DevOps and Google Gemini AI.",
+      tech: ["Node.js", "VS Code API", "Google Gemini AI", "Azure DevOps"],
+      github: "https://github.com/sara6310472/AI-Commit-Assistant",
+      live: "https://vscode-commit-ai-buddy.vercel.app/",
+      highlights: ["50% efficiency increase", "80% workflow automation", "AI-powered analysis"]
+    },
+    {
       title: "Volunteer Management System",
-      description: "WPF application managing 100+ volunteers, cutting coordination time by 50%. Features rule-based matching algorithm improving assignment accuracy by 50%.",
-      tech: ["C#", "WPF", "MVVM", "XML"],
-      github: "https://github.com/sara6310472",
-      live: null,
+      description: "Full-stack application managing 100+ volunteers with dashboard, cutting coordination time by 50%. Features rule-based matching algorithm improving assignment accuracy by 50%.",
+      tech: ["React", "C#", ".NET", "MVVM", "Responsive Design"],
+      github: "https://github.com/sara6310472/dotNet5785_9427_1873",
+      live: "https://aid-nexus-21.vercel.app/dashboard",
       highlights: ["100+ volunteers managed", "50% time reduction", "Smart matching algorithm"]
+    },
+    {
+      title: "Employee Management System",
+      description: "Modern full-stack employee management with real-time data synchronization and intuitive CRUD operations. Features status tracking, form validation, and responsive design with Chakra UI.",
+      tech: ["React", "TypeScript", "Chakra UI", "TanStack Query", "Vite"],
+      github: "https://github.com/sara6310472/Employee-Management",
+      live: "https://blue-emp-hub.vercel.app/",
+      highlights: ["Real-time updates", "Complete CRUD operations", "Modern UI components"]
+    },
+    {
+      title: "Posts Social Network",
+      description: "Modern social media application with seamless navigation using React Router. Features personal feed, user profiles, follow system, and real-time social interactions with responsive design.",
+      tech: ["React", "React Router", "JavaScript ES6+", "CSS3", "Local Storage"],
+      github: "https://github.com/sara6310472/Posts-Tasks-Albums",
+      live: "https://pink-petal-network.vercel.app/login",
+      highlights: ["Social interactions", "Follow system", "Seamless navigation"]
     }
   ];
 
