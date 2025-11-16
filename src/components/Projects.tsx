@@ -1,4 +1,3 @@
-import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
@@ -56,7 +55,7 @@ const Projects = () => {
               Real-world applications delivering measurable impact and value
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-1 gap-8">
             {projects.map((project, index) => (
               <div
@@ -73,7 +72,7 @@ const Projects = () => {
                       {project.description}
                     </p>
                   </div>
-                  
+
                   <div className="flex flex-wrap gap-2">
                     {project.tech.map((tech) => (
                       <span
@@ -84,7 +83,7 @@ const Projects = () => {
                       </span>
                     ))}
                   </div>
-                  
+
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
                     {project.highlights.map((highlight) => (
                       <div
@@ -96,39 +95,41 @@ const Projects = () => {
                       </div>
                     ))}
                   </div>
-                  
+
                   <div className="flex flex-wrap gap-3 pt-4">
+
+                    {/* View Live */}
                     {project.live && (
-                      <Button asChild className="group/btn">
-                        <a
-                          href={project.live}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-2"
-                        >
-                          <ExternalLink className="w-4 h-4" />
-                          View Live
-                          <span className="group-hover/btn:translate-x-1 transition-transform">→</span>
-                        </a>
-                      </Button>
-                    )}
-                    
-                    <Button asChild variant="outline" className="group/btn">
                       <a
-                        href={project.github}
+                        href={project.live}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-2"
+                        className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 group/btn flex items-center gap-2"
                       >
-                        <Github className="w-4 h-4" />
-                        View Code
+                        <ExternalLink className="w-4 h-4" />
+                        View Live
+                        <span className="group-hover/btn:translate-x-1 transition-transform">→</span>
                       </a>
-                    </Button>
+                    )}
+
+                    {/* View Code */}
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 group/btn flex items-center gap-2"
+                    >
+                      <Github className="w-4 h-4" />
+                      View Code
+                    </a>
+
                   </div>
+
                 </div>
               </div>
             ))}
           </div>
+
         </div>
       </div>
     </section>
