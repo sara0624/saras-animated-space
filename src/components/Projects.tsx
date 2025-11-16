@@ -1,6 +1,8 @@
 import { ExternalLink, Github } from "lucide-react";
 
 const Projects = () => {
+  console.log("THIS IS THE REAL PROJECTS FILE");
+
   const projects = [
     {
       title: "GitLink Developer Platform",
