@@ -40,13 +40,15 @@ const Hero = () => {
           </div>
           
           <div className="flex flex-wrap items-center justify-center gap-4 pt-4">
-            <Button asChild size="lg" className="group">
-              <a href="#projects" className="flex items-center gap-2">
+
+            {/* 🔥 FIXED BUTTON — no asChild */}
+            <a href="#projects" className="inline-block">
+              <Button size="lg" className="group flex items-center gap-2">
                 View Projects
                 <span className="group-hover:translate-x-1 transition-transform">→</span>
-              </a>
-            </Button>
-            
+              </Button>
+            </a>
+
             <Button asChild variant="outline" size="lg" className="group">
               <a 
                 href="https://github.com/sara6310472" 
@@ -70,6 +72,7 @@ const Hero = () => {
                 LinkedIn
               </a>
             </Button>
+
           </div>
         </div>
       </div>
